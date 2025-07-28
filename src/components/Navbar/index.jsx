@@ -23,6 +23,8 @@ const COLOR_NAV_BORDER = "#bfa77a";
   { name: "Committees", href: "/6863b4857b0acf10390f6b39", current: false },
 ];
 const navigationRight = [
+  { name: "Paper Submission", href: "/68875b0d959ec9c788fac137", current: false },
+
   {
     name: "Registration",
     href: "",
@@ -34,7 +36,6 @@ const navigationRight = [
   },
   { name: "Location", href: "/6863bcdd9f5bf58c267f065c", current: false },
   
-  { name: "Accommodation", href: "/6863b4e57b0acf10390f6b44", current: false },
 ];
 
   function classNames(...classes) {

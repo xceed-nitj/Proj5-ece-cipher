@@ -21,9 +21,11 @@ const COLOR_NAV_BORDER = "#bfa77a";
   { name: "Home", href: "/", current: true },
   { name: "Tracks", href: "/6863a71585f2e21ce21c8d42", current: false },
   { name: "Committees", href: "/6863b4857b0acf10390f6b39", current: false },
+  { name: "Speakers", href: "/68ac4ff8e8f579b7ff623a5c", current: false },
+
 ];
 const navigationRight = [
-  { name: "Paper Submission", href: "/68875b0d959ec9c788fac137", current: false },
+  { name: "Submission", href: "/68875b0d959ec9c788fac137", current: false },
 
   {
     name: "Registration",
@@ -34,8 +36,9 @@ const navigationRight = [
       { name: "Registration Link", href: "/6863b4da7b0acf10390f6b41" },
     ],
   },
-  { name: "Location", href: "/6863bcdd9f5bf58c267f065c", current: false },
-  
+  { name: "Location", href: "/6863bcdc9f5bf58c267f0658", current: false },
+  { name: "Accommodation", href: "/6863b4e57b0acf10390f6b44", current: false },
+
 ];
 
   function classNames(...classes) {
@@ -159,7 +162,7 @@ const navigationRight = [
                   >
                     {/* Left nav */}
                     <div className="flex items-center justify-center gap-10 max-w-5xl ">
-                      <div className="flex space-x-6">
+                      <div className="flex space-x-3">
                       {navLeft.map((item) => (
                 <div key={item.name} className="relative group">
                   {item.subItems ? (
@@ -216,7 +219,7 @@ const navigationRight = [
                     </div>
 
                     {/* Center CIPHER */}
-                    <div className="px-10 justify-center items-center">
+                    <div className="px-5 justify-center items-center">
                       <span
                         className="text-2xl font-bold whitespace-nowrap"
                         style={{ color: COLOR_NAV_CENTER }}
@@ -226,7 +229,7 @@ const navigationRight = [
                     </div>
 
                     {/* Right nav */}
-                    <div className="flex space-x-6">
+                    <div className="flex space-x-3">
               {navRight.map((item) => (
                 <div
                   key={item.name}

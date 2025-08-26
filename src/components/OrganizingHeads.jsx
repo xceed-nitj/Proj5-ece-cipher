@@ -99,6 +99,11 @@ const OrganizingHeads = () => {
       position: "Electronics and Communication Engineering, NIT Jalandhar",
       image: "bodile.jpg",
     },
+    {
+      name: "Dr. Kundan Kumar",
+      position: "Electronics and Communication Engineering, NIT Jalandhar",
+      image: "kundan.jpeg",
+    },
   ];
 //  Temp change to reopen PR
   const renderSection = (title, members) => (

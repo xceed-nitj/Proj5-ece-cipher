@@ -5,7 +5,7 @@ import Timeline from "../components/Timeline";
 import Footer from "../components/Footer";
 import AboutNITJ from "../components/AboutNITJ";
 // import AboutNews from "../components/AboutNews";
-import CountdownBox from "../components/timer.jsx";
+// import CountdownBox from "../components/timer.jsx";
 import AboutDept  from "../components/AboutDept.jsx"
 // import SponsorShip from "../components/Sponsorship";
 import { useEffect} from "react";
@@ -68,9 +68,9 @@ function Home(props) {
       {/* <AboutNews confid={props.confId} /> */}
       <Timeline confid={props.confId}  />
       <AboutNITJ confid={props.confId} />
-      <div className="w-full flex justify-center mt-8">
+      {/* <div className="w-full flex justify-center mt-8">
         <CountdownBox />
-      </div>
+      </div> */}
       <AboutDept confid={props.confId} />
       <OrganizingHeads />
 

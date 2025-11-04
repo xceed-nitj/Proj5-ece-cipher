@@ -145,12 +145,12 @@ function Slider(props) {
               {/* Two small pictures above the main conference title */}
               <div className="flex items-center gap-4 mb-4">
                 <img
-                  src="public\nitj-logo.png"
+                  src="/nitj-logo.png"
                   alt="Conference visual 1"
                   className="h-10 sm:h-10 md:h-14 lg:h-20 object-contain rounded shadow-md"
                 />
                 <img
-                  src="public\vlsi_logo.jpg"
+                  src="/vlsi_logo.jpg"
                   alt="Conference visual 2"
                   className="h-10 sm:h-10 md:h-14 lg:h-20 object-contain rounded shadow-md"
                 />

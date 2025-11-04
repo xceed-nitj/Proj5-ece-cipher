@@ -142,6 +142,19 @@ function Slider(props) {
         >
           <div className="pl-8 sm:pl-16 md:pl-24 lg:pl-32 max-w-4xl pointer-events-auto text-left">
             <div className="mb-2">
+              {/* Two small pictures above the main conference title */}
+              <div className="flex items-center gap-4 mb-4">
+                <img
+                  src="public\nitj-logo.png"
+                  alt="Conference visual 1"
+                  className="h-10 sm:h-10 md:h-14 lg:h-20 object-contain rounded shadow-md"
+                />
+                <img
+                  src="public\vlsi_logo.jpg"
+                  alt="Conference visual 2"
+                  className="h-10 sm:h-10 md:h-14 lg:h-20 object-contain rounded shadow-md"
+                />
+              </div>
               <span
                 className="text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl px-4 py-2 rounded shadow-lg block"
                 style={{

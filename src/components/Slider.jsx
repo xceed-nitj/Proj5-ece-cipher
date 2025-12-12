@@ -143,23 +143,30 @@ function Slider(props) {
           <div className="pl-8 sm:pl-16 md:pl-24 lg:pl-32 max-w-4xl pointer-events-auto text-left">
             <div className="mb-2">
               {/* Two small pictures above the main conference title */}
-              <div className="flex items-center gap-4 mb-4">
-                <img
-                  src="/nitj-logo.png"
-                  alt="Conference visual 1"
-                  className="h-10 sm:h-10 md:h-14 lg:h-20 object-contain rounded shadow-md"
-                />
-                <img
-                  src="/vlsi_logo.jpg"
-                  alt="Conference visual 2"
-                  className="h-10 sm:h-10 md:h-14 lg:h-20 object-contain rounded shadow-md"
-                />
-              </div>
+           {/* <div className="mb-2"> */}
+  {/* Centered logos with reduced size */}
+  <div className="flex justify-center items-center gap-4 mb-4">
+    <img
+      src="/ieee.png"
+      alt="IEEE Logo"
+      className="h-8 sm:h-8 md:h-10 lg:h-12 object-contain rounded shadow-md"
+    />
+    <img
+      src="/nitj-logo.png"
+      alt="NITJ Logo"
+      className="h-8 sm:h-8 md:h-10 lg:h-12 object-contain rounded shadow-md"
+    />
+    <img
+      src="/vlsi_logo.jpg"
+      alt="Conference Logo"
+      className="h-8 sm:h-8 md:h-10 lg:h-12 object-contain rounded shadow-md"
+    />
+  </div>
               <span
-                className="text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl px-4 py-2 rounded shadow-lg block"
+                className="text-white text-3xl sm:text-2xl md:text-4xl lg:text-4xl px-4 py-2 rounded shadow-lg block"
                 style={{
                   fontFamily: "Playfair",
-                  fontWeight: 300,
+                  fontWeight: 150,
                   lineHeight: 1.2,
                 }}
               >
@@ -169,14 +176,15 @@ function Slider(props) {
             </div>
             <div>
               <span
-                className="text-white text-lg sm:text-xl md:text-2xl lg:text-2xl px-4 py-1 rounded block"
+                className="text-white text-sm sm:text-xl md:text-2xl lg:text-2xl px-4 py-1 rounded block"
                 style={{
                   fontFamily: "sans-serif",
-                  fontWeight: 300,
+                  fontWeight: 100,
                   letterSpacing: "0.01em",
                 }}
               >
-                February 13-15, 2026 &nbsp;|&nbsp; NIT Jalandhar
+                February 13-15, 2026 &nbsp;|&nbsp; NIT Jalandhar &nbsp;|&nbsp;
+                <br/>IEEE Conference Record #70417
               </span>
             </div>
             <div className="mt-6 flex items-center pl-4">
@@ -185,7 +193,7 @@ function Slider(props) {
                 className="inline-block bg-white hover:bg-amber-100 text-amber-900 text-base font-semibold px-8 py-2 rounded-sm shadow-md transition duration-200 border border-black-700"
                 style={{
                   fontFamily: "'Montserrat', sans-serif",
-                  fontWeight: 500,
+                  fontWeight: 100,
                   letterSpacing: "0.02em",
                   textDecoration: "none",
                 }}

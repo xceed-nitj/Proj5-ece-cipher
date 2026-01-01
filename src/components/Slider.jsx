@@ -157,6 +157,11 @@ function Slider(props) {
       className="h-8 sm:h-8 md:h-10 lg:h-12 object-contain rounded shadow-md"
     />
     <img
+      src="/APSlogo.jpeg"
+      alt="IEEE Logo"
+      className="h-8 sm:h-8 md:h-10 lg:h-12 object-contain rounded shadow-md"
+    />
+    <img
       src="/nitj-logo.png"
       alt="NITJ Logo"
       className="h-8 sm:h-8 md:h-10 lg:h-12 object-contain rounded shadow-md"

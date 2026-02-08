@@ -106,7 +106,7 @@ const OrganizingHeads = () => {
     },
      {
       name: "Dr. Nagendra Pratap Singh",
-      position: "Electronics and Communication Engineering, NIT Jalandhar",
+      position: "Computer Science and Engineering, NIT Jalandhar",
       image: "nag.jpeg",
     },
   ];

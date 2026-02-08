@@ -104,6 +104,11 @@ const OrganizingHeads = () => {
       position: "Electronics and Communication Engineering, NIT Jalandhar",
       image: "kundan.jpeg",
     },
+     {
+      name: "Dr. Nagendra Pratap Singh",
+      position: "Electronics and Communication Engineering, NIT Jalandhar",
+      image: "nag.jpeg",
+    },
   ];
 //  Temp change to reopen PR
   const renderSection = (title, members) => (
